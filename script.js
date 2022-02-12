@@ -18,13 +18,10 @@ for(const button of buttons){
            display.innerText = display.innerText.slice(0,-1);
            break
            case ('='):
-                // display.innerText;
-                try{
-                    total.innerText = eval(display.innerText)
-                }
-             catch{
-                 total.innerText = 'ERROR!'
-             }
+                 if(display.innerText === ''){
+                    break;
+                 }
+                total.innerText = eval(display.innerText)
                 break
                     default:
             display.innerText += e.target.innerText;
