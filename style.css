@@ -8,12 +8,13 @@ height: 90px;
 }
 section{
     background-color:transparent;
+    height: 100vh;
 }
 .button{
     width: 50px;
     text-align: center;
     border-radius: 5px;
-    height: 80px;
+    height: 70px;
     font-size: 30px;
      color: black;
     border: 1px solid white;
