@@ -1,8 +1,14 @@
 const display = document.getElementById('display');
 const buttons  = document.getElementsByClassName('button');
 const total = document.getElementById('total');
+function play(){
+    let audio =document.getElementById('audio');
+    audio.play();
+}
 for(const button of buttons){
+  
     button.addEventListener('click',function(e){
+        play();
     switch(e.target.innerText){
        case ("C"):
            display.innerText = '';
