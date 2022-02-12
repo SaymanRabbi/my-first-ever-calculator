@@ -11,10 +11,10 @@ section{
     height: 100vh;
 }
 .button{
-    width: 50px;
+    width: 45px;
     text-align: center;
     border-radius: 5px;
-    height: 70px;
+    height: 65px;
     font-size: 30px;
      color: black;
     border: 1px solid white;
